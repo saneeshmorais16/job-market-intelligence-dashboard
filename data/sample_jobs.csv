@@ -1,0 +1,25 @@
+job_id,title,company,location,salary,description,posted_date
+1,Graduate AI Engineer,Northstar Analytics,London,"GBP 32000 - 42000","Build Python prototypes for AI/ML workflows, use SQL for analysis, package APIs with FastAPI and Docker.",2026-06-01
+2,Junior Software Engineer,Orbit Labs,Manchester,"28000-36000","Work with Python, React and Docker to deliver internal tools with tests and code reviews.",2026-06-02
+3,Data Analyst,InsightWorks,Remote,"30k - 40k","Analyse product data using SQL, Python, Power BI and Tableau dashboards.",2026-06-03
+4,Machine Learning Engineer,ModelForge,London,"GBP 50000 to GBP 65000","Train machine learning models, deploy APIs with FastAPI, Docker and AWS.",2026-06-05
+5,Technology Consultant,CloudBridge,Birmingham,"35000 - 48000","Support digital transformation projects using SQL, AWS, Power BI and stakeholder workshops.",2026-06-06
+6,Business Analyst,ProcessPoint,Leeds,"GBP 33000 - 45000","Gather requirements, map processes, use SQL and Tableau for reporting.",2026-06-08
+7,Senior Software Engineer,FinOps Studio,London,"70000 - 90000","Lead backend delivery with Python, FastAPI, React, Docker and AWS.",2026-06-09
+8,Graduate Data Analyst,HealthMetrics,Bristol,"27000 - 34000","Create SQL reports, Python notebooks and Power BI dashboards for operational teams.",2026-06-10
+9,AI Solutions Consultant,NextWave AI,Remote,"45000 - 62000","Design AI/ML demos, explain LLM limitations, use Python, SQL and AWS.",2026-06-11
+10,Junior Machine Learning Engineer,VisionGrid,Edinburgh,"30000 - 42000","Prepare datasets, evaluate ML models and deploy lightweight services with Docker.",2026-06-12
+11,Frontend Software Engineer,StudioNine,Remote,"38000 - 52000","Build React interfaces, connect to FastAPI services and collaborate with designers.",2026-06-13
+12,Data Analyst Intern,MetroData,London,"24000 - 28000","Support SQL analysis, Tableau charts and Python data cleaning scripts.",2026-06-14
+13,AI Engineer,SignalWorks,Manchester,"48000 - 62000","Develop AI/ML products using Python, Docker, AWS and FastAPI endpoints.",2026-06-16
+14,Associate Technology Consultant,BluePeak Consulting,London,"32000 - 42000","Work on cloud, automation and analytics projects using SQL, Power BI and AWS.",2026-06-17
+15,Business Analyst Graduate,GreenOps,Remote,"28000 - 35000","Document requirements, analyse KPIs with SQL and create Power BI reports.",2026-06-18
+16,Machine Learning Engineer,DataNest,Birmingham,"52000 - 68000","Build ML pipelines, monitor model quality and containerise services using Docker.",2026-06-19
+17,Software Engineer,North API Co,Bristol,"42000 - 58000","Develop APIs with Python, FastAPI, Docker and PostgreSQL-style SQL.",2026-06-20
+18,Data Analyst,RetailScope,Manchester,"34000 - 46000","Create dashboards with Power BI and Tableau, automate reports using Python and SQL.",2026-06-21
+19,Junior AI Analyst,PublicTech Lab,Leeds,"26000 - 34000","Evaluate AI tools, clean datasets with Python and communicate findings to stakeholders.",2026-06-22
+20,Technology Consultant,DigitalPath,Edinburgh,"44000 - 58000","Advise clients on analytics, AWS migration, SQL reporting and automation roadmaps.",2026-06-23
+21,ML Engineer,AutoInsights,Remote,"55000 - 72000","Optimise machine learning models, build Docker images and deploy inference APIs.",2026-06-24
+22,Entry Level Software Developer,CodeWorks,London,"29000 - 37000","Contribute to Python services, React components and testing workflows.",2026-06-25
+23,Business Analyst,ServiceLens,Birmingham,"36000 - 48000","Translate service requirements into delivery plans and reporting dashboards using SQL.",2026-06-26
+24,AI Engineer,SearchSpring,Remote,"60000 - 78000","Build retrieval and AI/ML features with Python, FastAPI, Docker and AWS.",2026-06-27
