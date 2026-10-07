@@ -35,6 +35,7 @@ Raw job posting data is often inconsistent: titles vary, salary text is messy, l
 - SQLite storage for cleaned jobs
 - Cleaned CSV export
 - Dashboard filters for location, role, seniority, skill and salary range
+- Literal skill filtering so terms such as `C++` and `AI/ML` behave correctly
 - Automated tests and CI workflow
 
 ## Dashboard Sections

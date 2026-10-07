@@ -1,3 +1,5 @@
+import re
+
 import pandas as pd
 
 from app.config import ROLE_CATEGORIES, SKILLS
@@ -19,7 +21,8 @@ def filter_jobs(
     if seniorities:
         filtered = filtered[filtered["seniority"].isin(seniorities)]
     if skills:
-        pattern = "|".join(skills)
+        # Escape skill names so terms like C++ or AI/ML are treated as plain text.
+        pattern = "|".join(re.escape(skill) for skill in skills)
         filtered = filtered[filtered["skills_text"].str.contains(pattern, case=False, na=False)]
     if salary_range:
         low, high = salary_range
@@ -28,9 +31,10 @@ def filter_jobs(
 
 
 def overview_metrics(df: pd.DataFrame) -> dict[str, float]:
+    salary_values = df["salary_avg"].dropna() if not df.empty else pd.Series(dtype=float)
     return {
         "postings": int(len(df)),
-        "avg_salary": round(float(df["salary_avg"].dropna().mean()), 2) if not df.empty else 0,
+        "avg_salary": round(float(salary_values.mean()), 2) if not salary_values.empty else 0,
         "locations": int(df["location_standard"].nunique()) if not df.empty else 0,
         "role_categories": int(df["role_category"].nunique()) if not df.empty else 0,
     }
